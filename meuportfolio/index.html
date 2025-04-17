@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfolio</title>
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contactar">Contactar</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Olá, Eu sou</h3>
+            <h1>Pedro Arns Junior</h1>
+            <p>
+                Formando em Ciencias da Computação, pela Universidade do Extremo Sul Catarinense - 
+                UNESC em 2020.
+            </p>
+            <p>Programador Web, com conhecimentos nas tenologias: HTML, CSS, JavaScript, Vue, Node, Next, 
+                React, Angular, Banco de Dados, Python, Teste de Qualidade/QA e Golang.</p>
+
+            <div class="social-media">
+                <a href="https://www.facebook.com/PedroJunior79"><i class='bx bxl-facebook'></i></a>
+                <a href="https://x.com/JuniorArns"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.instagram.com/pedro.junior79/"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.linkedin.com/in/pedro-arns-junior/"><i class='bx bxl-linkedin'></i></a>
+            </div>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Programador Web</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Analista de Teste QA</h3>
+                </div>
+                
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <img src="images/home.png" alt="">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/about.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">Sobre <span></span></h2>
+            <h3>
+                Olá, bem-vindo ao meu site! Eu sou o Pedro,
+                um desenvolvedor Web apaixonado que gosta de aprender novas tecnologias!
+            </h3>
+            <p>
+                Tenho conhecimento em linguagens de programação como: C#, C/C++, Java,
+                PHP, Typescript. A IDE que uso para programar é o Visual Studio Code ou 
+                a IDE intellijidea que tem a versão comunity para programar em Java.
+            </p>
+            <p>
+                Obrigado por visitar meu site e por me conhecer melhor. Espero que você
+                tenha gostado de ler minhas postagens no blog e
+                tenha achado
+                úteis e informativos. Se quiser ler mais publicações minhas, assine
+                meu boletim informativo, onde envio
+                semanalmente
+                atualizações semanais sobre tendências e dicas de desenvolvimento da Web. Se você tiver algum comentário ou
+                sugestões, entre em contato comigo. Eu adoraria ouvir sua opinião.
+
+
+            </p>
+            <a href="https://techprogramacao.blogspot.com/" class="btn">Leia mais</a>
+        </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="projetos" id="projetos">
+        <h2 class="heading">Meus <span>Projetos</span></h2>
+
+        <div class="projetos-container">
+            <div class="projetos-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>DSMovie</h3>
+                <p>Semana Spring React 8.0 9 a 15 de maio de 2022, evento organizado pela DevSuperior onde 
+                    foi desenvolvido um catalogo de filmes em HTML5 e CSS3.</p>
+                <a href="https://dsmoviepj.netlify.app/" class="btn">Acesse</a>
+            </div>
+            <div class="projetos-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Site de Pesquisa de Tecnologias em TI</h3>
+                <p>Site de Pesquisa de Tecnologias em TI.Projeto Desenvolvido na Imersão Dev Google Gemini .</p>
+                <a href="https://imersao-lime-mu.vercel.app/" class="btn">Acesse</a>
+            </div>
+            <div class="projetos-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Imersão Front-End HTML, CSS e JavaScript</h3>
+                <p>Imersão Front-End HTML, CSS e JavaScript da alura online que ocorre nos dias 
+                    22 a 26 de Janeiro onde foi criado um clone da pagina do Spotify.</p>
+                <a href="https://github.com/pedrojunior079/spotify-imersao-alura" class="btn">Repositorio GitHub</a>
+            </div>
+            
+            
+        </div>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright © 2025 | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
